@@ -1,0 +1,22 @@
+
+@media  screen and (min-width: 500px) {
+
+section{
+	
+}
+
+.recipes {
+	display: flex;
+	flex-wrap: wrap;
+	/*text-align: center;*/
+}
+
+.recipe{
+	flex: 1 1 auto;
+	width: 400px;
+}
+
+
+}
+
+

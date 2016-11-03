@@ -1,0 +1,18 @@
+body {
+  background: url('images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.recipe .well{
+	background-color: rgba(255,255,255,0.5);
+}
+
+/*.recipe h2 {
+	background-color:blue;
+}*/
+
+.jumbotron{
+	margin-top:10px;
+	color:black;
+	background-color:rgba(70, 207, 242,0.8);
+}
