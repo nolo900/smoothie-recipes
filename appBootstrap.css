@@ -3,28 +3,21 @@ body {
   background-size: cover;
   font-family: 'Roboto', sans-serif;
 }
-
-/*.recipe .well{
-	background-color: rgba(255,255,255,0.5);
-}*/
-
-/*.recipes {
-	background-color: rgba(242, 229, 89,0.4);
-}*/
-
+li {
+	list-style: none;
+}
 .jumbotron{
 	margin-top:10px;
 	color:black;
 	background-color:rgba(70, 207, 242,0.8);
 }
-
-li {
-	list-style: none;
+.panel{
+	background: none;
 }
-/*h2.panel-heading{
-	margin:0 0;
+.panel-heading{
+	text-align: center;
+	background: rgba(255,255,255, 0.4)!important;
 }
-
-.recipe.panel.panel-success.col-md-4.col-sm-6{
-	margin:10 0;
-}*/
+.list-group-item{
+	background: rgba(255,255,255, 0.4)!important;
+}
