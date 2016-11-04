@@ -15,128 +15,187 @@
 </head>
 
 <body>
+  <div class="navbar-fixed">
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">Smoothie Recipes</a>
+        <!-- <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="sass.html">Sass</a></li>
+          <li><a href="badges.html">Components</a></li>
+          <li><a href="collapsible.html">JavaScript</a></li>
+        </ul> -->
+      </div>
+    </nav>
+  </div>
+  <section class="container">
+    <h4>Welcome to my collection of delicious and healthy smoothie recipes. Enjoy!!!</h4>
+  </section>
+  
 
-  <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
+
+<div class="row">
+
+    <div class="col s12 m9 l10 recipes">
+
+
+        <div id="smoothieClassic" class="section scrollspy">
+          <article class="recipe">
+            <h2>Classic</h2>
+            <ul>
+              <li>2 small bananas, broken into chunks</li>
+              <li>1 cup frozen unsweetened strawberries</li>
+              <li>1 (8 ounce) container vanilla low-fat yogurt</li>
+              <li>3/4 cup milk</li>
+            </ul>
+          </article>
+        </div>
+
+        <div id="smoothiePurpleMonster" class="section scrollspy">
+          <article class="recipe">
+            <h2>Purple Monster</h2>
+            <ul>
+              <li>2 frozen bananas</li>
+              <li>1/2 cup frozen blueberries</li>
+              <li>1 cup orange juice</li>
+              <li>1 tablespoon honey (optional)</li>
+              <li>1 teaspoon vanilla extract (optional)</li>
+            </ul>
+          </article>
+        </div>
+
+        <div id="smoothiePBbanana" class="section scrollspy">
+          <article class="recipe">
+          <h2>Peanut Butter Banana</h2>
+            <ul>
+              <li>2 bananas, broken into chunks</li>
+              <li>2 cups milk</li>
+              <li>1/2 cup peanut butter</li>
+              <li>2 tablespoons honey, or to taste</li>
+              <li>2 cups ice cubes</li>
+            </ul>
+          </article>
+        </div>
+      
+        <div id="smoothieBananaBerry" class="section scrollspy">
+          <article class="recipe">
+            <h2>Banana-Berry</h2>
+            <ul>
+              <li>1 small banana</li>
+              <li>6 oz. pineapple juice</li>
+              <li>0.50 cup ice</li>
+              <li>6 oz. blueberries</li>
+              <li>6 oz. raspberries or blackberries</li>
+              <li>2 tsp. honey</li>
+              <li>1 tsp. grated peeled fresh ginger</li>
+            </ul>
+          </article>
+        </div>  
+        
+        <div id="smoothieIrrPeach" class="section scrollspy">
+          <article class="recipe">
+            <h2>Irresistible Peach</h2>
+            <ul>
+              <li>2 cup peaches</li>
+              <li>0.50 cup milk</li>
+              <li>1 cup Ice cream</li>
+              <li>1 tbsp. lemon juice</li>
+              <li>peach slices</li>
+            </ul>
+          </article>
+        </div>
+
+        <div id="smoothieKiwiStraw" class="section scrollspy">
+          <article class="recipe">
+            <h2>Kiwi Strawberry</h2>
+            <ul>
+              <li>1 banana</li>
+              <li>6 strawberries</li>
+              <li>1 kiwi</li>
+              <li>1/2 cup vanilla frozen yogurt</li>
+              <li>3/4 cup pineapple and orange juice blend</li>
+            </ul>
+          </article>
+        </div>
+
+        <div id="smoothieChocBanana" class="section scrollspy">
+          <article class="recipe">
+            <h2>Chocolate Banana</h2>
+            <ul>
+              <li>1 banana</li>
+              <li>1 tablespoon cocolate syrup</li>
+              <li>1 cup milk</li>
+              <li>1 cup crushed ice</li>
+            </ul>
+          </article>
+        </div>
+
+        <div id="smoothieFeelGood" class="section scrollspy">
+          <article class="recipe">
+            <h2>Feel Good</h2>
+            <ul>
+              <li>1/2 cup nonfat milk</li>
+              <li>1/2 cup fat-free plain yogurt</li>
+              <li>1/2 frozen banana, peeled and chopped</li>
+              <li>2 tablespoons powdered protein supplement</li>
+              <li>1 1/2 tablespoons flax seed</li>
+              <li>1 teaspoon honey</li>
+              <li>1/2 cup frozen strawberries</li>
+            </ul>
+          </article>
+        </div>
+
+        <div id="smoothieMangoLassiII" class="section scrollspy">
+          <article class="recipe">
+            <h2>Mango Lassi II</h2>
+            <ul>
+              <li>1 cup ice</li>
+              <li>2 mangos - peeled, seeded and diced</li>
+              <li>2 cups plain yogurt</li>
+              <li>1/2 cup white sugar</li>
+            </ul>
+          </article>
+        </div>
+
+      
+
+    </div> <!-- end col size div -->
+    
+    
+
+
+    <!-- scrollspy -->
+    <div class="col hide-on-small-only m3 l2">
+      <ul class="section table-of-contents">
+        <li><a href="#smoothieClassic">Classic</a></li>
+        <li><a href="#smoothiePurpleMonster">Purple Monster</a></li>
+        <li><a href="#smoothiePBbanana">Peanut Butter Banana</a></li>
+        <li><a href="#smoothieBananaBerry">Banana-Berry</a></li>
+        <li><a href="#smoothieIrrPeach">Irresistible Peach</a></li>
+        <li><a href="#smoothieKiwiStraw">Kiwi Strawberry</a></li>
+        <li><a href="#smoothieChocBanana">Chocolate Banana</a></li>
+        <li><a href="#smoothieFeelGood">Feel Good</a></li>
+        <li><a href="#smoothieMangoLassiII">Mango Lassi II</a></li>
       </ul>
     </div>
-  </nav>
+    <!-- end scrollspy -->
+  
 
-  <section>
-    <h1>Welcome to Smoothie Recipes</h1>
-    <p>Welcome to my collection of delicious and healthy smoothie recipes. Enjoy!!!</p>
-  </section>
-
-  <section class="recipes">
-    <article class="recipe">
-      <h2>Classic</h2>
-      <ul>
-        <li>2 small bananas, broken into chunks</li>
-        <li>1 cup frozen unsweetened strawberries</li>
-        <li>1 (8 ounce) container vanilla low-fat yogurt</li>
-        <li>3/4 cup milk</li>
-      </ul>
-    </article>
-
-    <article class="recipe">
-      <h2>Purple Monster</h2>
-      <ul>
-        <li>2 frozen bananas</li>
-        <li>1/2 cup frozen blueberries</li>
-        <li>1 cup orange juice</li>
-        <li>1 tablespoon honey (optional)</li>
-        <li>1 teaspoon vanilla extract (optional)</li>
-      </ul>
-    </article>
-
-    <article class="recipe">
-      <h2>Peanut Butter Banana</h2>
-      <ul>
-        <li>2 bananas, broken into chunks</li>
-        <li>2 cups milk</li>
-        <li>1/2 cup peanut butter</li>
-        <li>2 tablespoons honey, or to taste</li>
-        <li>2 cups ice cubes</li>
-      </ul>
-    </article>
-
-    <article class="recipe">
-      <h2>Banana-Berry</h2>
-      <ul>
-        <li>1 small banana</li>
-        <li>6 oz. pineapple juice</li>
-        <li>0.50 cup ice</li>
-        <li>6 oz. blueberries</li>
-        <li>6 oz. raspberries or blackberries</li>
-        <li>2 tsp. honey</li>
-        <li>1 tsp. grated peeled fresh ginger</li>
-      </ul>
-    </article>
-
-    <article class="recipe">
-      <h2>Irresistible Peach</h2>
-      <ul>
-        <li>2 cup peaches</li>
-        <li>0.50 cup milk</li>
-        <li>1 cup Ice cream</li>
-        <li>1 tbsp. lemon juice</li>
-        <li>peach slices</li>
-      </ul>
-    </article>
-
-    <article class="recipe">
-      <h2>Kiwi Strawberry</h2>
-      <ul>
-        <li>1 banana</li>
-        <li>6 strawberries</li>
-        <li>1 kiwi</li>
-        <li>1/2 cup vanilla frozen yogurt</li>
-        <li>3/4 cup pineapple and orange juice blend</li>
-      </ul>
-    </article>
-
-    <article class="recipe">
-      <h2>Chocolate Banana</h2>
-      <ul>
-        <li>1 banana</li>
-        <li>1 tablespoon cocolate syrup</li>
-        <li>1 cup milk</li>
-        <li>1 cup crushed ice</li>
-      </ul>
-    </article>
-
-    <article class="recipe">
-      <h2>Feel Good</h2>
-      <ul>
-        <li>1/2 cup nonfat milk</li>
-        <li>1/2 cup fat-free plain yogurt</li>
-        <li>1/2 frozen banana, peeled and chopped</li>
-        <li>2 tablespoons powdered protein supplement</li>
-        <li>1 1/2 tablespoons flax seed</li>
-        <li>1 teaspoon honey</li>
-        <li>1/2 cup frozen strawberries</li>
-      </ul>
-    </article>
-
-    <article class="recipe">
-      <h2>Mango Lassi II</h2>
-      <ul>
-        <li>1 cup ice</li>
-        <li>2 mangos - peeled, seeded and diced</li>
-        <li>2 cups plain yogurt</li>
-        <li>1/2 cup white sugar</li>
-      </ul>
-    </article>
-  </section>
-
+</div> <!-- end row -->
 
   <!-- Compiled and minified JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+  <script type="text/javascript"> 
+    $(document).ready(function(){
+      $('.scrollspy').scrollSpy();
+      $('.table-of-contents').pushpin(
+        { 
+          top: $('.table-of-contents').offset().top,
+          offset: 45
+         }
+        );
+    });
+  </script>
      
 </body>
 </html>
